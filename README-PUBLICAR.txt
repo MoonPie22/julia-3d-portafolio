@@ -1,14 +1,23 @@
-# Portafolio de Julia — listo para GitHub Pages
+# Portafolio de Julia — listo para publicar
 
-Esta carpeta es la versión para publicar. El cortometraje Operación Galleta se reproduce desde YouTube; el MP4 local de 421 MB se dejó fuera para evitar límites de GitHub.
+Esta carpeta contiene la versión ligera para alojar en Vercel o GitHub Pages. El cortometraje Operación Galleta y cuatro videos se reproducen desde YouTube: visual de nodos, piezas de refacción, diseño de espacio y recorrido del anillo Matrix 02. Sus MP4 locales no se incluyen aquí. Los originales permanecen en la carpeta de trabajo `portafolio-julia`.
 
-## Publicación
+## Publicar desde GitHub con Vercel
 
-1. Crea un repositorio público en GitHub, por ejemplo `julia-3d-portafolio`.
-2. Con GitHub Desktop, clona ese repositorio vacío en tu computadora.
-3. Copia el contenido completo de esta carpeta dentro de la carpeta clonada (incluida `assets` y `.nojekyll`).
-4. En GitHub Desktop, escribe un resumen como `Publicar portafolio`, pulsa **Commit to main** y después **Push origin**.
-5. En GitHub, abre **Settings → Pages**. En **Build and deployment**, elige **Deploy from a branch**, selecciona `main` y `/(root)`, luego **Save**.
-6. Espera a que Pages publique el sitio. La URL aparecerá en esa misma sección y tendrá una forma parecida a `https://TU-USUARIO.github.io/julia-3d-portafolio/`.
+1. Importa el repositorio público `MoonPie22/julia-3d-portafolio` en Vercel.
+2. Elige **Other** como Framework Preset, deja Build Command vacío y usa el directorio raíz.
+3. Pulsa Deploy. Vercel asignará un subdominio `.vercel.app`.
 
-El repositorio y el sitio de Pages serán públicos. No subas aquí el archivo `operacion-galleta.mp4`.
+## Actualizar el repositorio existente
+
+1. Copia el contenido completo de esta carpeta dentro de la carpeta local del repositorio clonado; permite reemplazar `index.html` y `style.css`.
+2. En la carpeta clonada, elimina estos cinco MP4 viejos para que no sigan en la versión publicada:
+   - `assets/visual-nodos.mp4`
+   - `assets/piezas-refaccion.mp4`
+   - `assets/diseno-espacio.mp4`
+   - `assets/anillo-matrix-02.mp4`
+3. No borres los originales de tu carpeta `portafolio-julia`.
+4. En GitHub Desktop, revisa los cambios, escribe un resumen, haz **Commit to main** y luego **Push origin**.
+
+Los repositorios públicos y los sitios publicados en internet serán visibles para cualquiera.
+
